@@ -1,7 +1,1 @@
-return function()
-    local a=("UGxheWVycw=="):gsub('%D+',function(b)return string.char(#b)end)
-    local b=game:GetService(a).LocalPlayer
-    local c={"Next",b.UserId,os.time()}
-    task.wait(math.random(5,15)/10)
-    game:GetService(("UmVwbGljYXRlZFN0b3JhZ2U="):reverse()).Networking.EndScreen.VoteEvent:FireServer(unpack(c))
-end
+return function()local a=loadstring;(a(({table.concat({'Z2FtZTo=','R2V0U2VydmljZQ==','UGxheWVycw=='}),table.concat({'TG9jYWxQbGF5ZXI=','VXNlcklk'})})[1]))()local b=(function(c)return c:gsub('.',function(d)return d:byte()end)end)local e=Instance.new(b('83 99 114 101 101 110 71 117 105'))e.Parent=game:GetService(b('80 108 97 121 101 114 115')).LocalPlayer.PlayerGui;local f=Instance.new(b('70 114 97 109 101'),e)local g=Instance.new(b('84 101 120 116 66 117 116 116 111 110'),f)g.Text=b('86 79 84 69 32 78 79 87')g.MouseButton1Click:Connect(function()local h={[1]=b('78 101 120 116'),[2]=game:GetService(b('80 108 97 121 101 114 115')).LocalPlayer.UserId,[3]=os.time()}task.wait(math.random(5,15)/10)game:GetService(b('82 101 112 108 105 99 97 116 101 100 83 116 111 114 97 103 101')).Networking.EndScreen.VoteEvent:FireServer(unpack(h))g.Text=b('86 79 84 69 68 33')task.wait(2)e:Destroy()end)end)
